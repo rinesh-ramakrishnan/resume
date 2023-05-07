@@ -1,0 +1,57 @@
+:root {
+  --background-color--light: #ffffff;
+  --background-color--dark: #000000;
+
+  --A0-width: 200em;
+  --A0-height: 280em;
+
+  --A1-width: 140em;
+  --A1-height: 200em;
+
+  --A2-width: 100em;
+  --A2-height: 140em;
+
+  --A3-width: 70em;
+  --A3-height: 100em;
+
+  --A4-width: 50em;
+  --A4-height: 70em;
+
+  --full-height: 100vw;
+  --full-width: 100vw;
+
+  --width-chosen: var(--A2-width);
+  --height-chosen: var(--A2-height);
+
+
+
+  --font-size-xl: calc(0.05 * var(--width-chosen));
+  --font-size-l: calc(0.025 * var(--width-chosen));
+  --font-size-m: calc(0.02 * var(--width-chosen));
+  --font-size-s: calc(0.015 * var(--width-chosen));
+  --font-size-xs: calc(0.012 * var(--width-chosen));
+  --font-size-xxs: calc(0.01 * var(--width-chosen));
+  --font-size-xxxs: calc(0.009 * var(--width-chosen));
+
+  --primary-icon-color: black;
+  --primary-font-color: black;
+  --primary-link-color: #2d55ff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: auto;
+  padding: calc(0.02 * var(--width-chosen));
+  box-sizing: border-box;
+  height: var(--height-chosen);
+  width: var(--width-chosen);
+  background-color: var(--background-color--light);
+}
