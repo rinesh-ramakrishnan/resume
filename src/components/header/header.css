@@ -95,7 +95,7 @@
     letter-spacing: 0.25ch;
     text-align: center;
     line-height: 150%;
-    background-color:wheat ;
+    background-color: var(--about-me-background-color);
     font-weight: lighter;
     border-radius: 20px;
 }

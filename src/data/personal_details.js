@@ -9,14 +9,12 @@ const personalDetails = {
     location: "Kerala, India",
     title: "Senior Data Engineer",
     description: 
-        "As an accomplished Data Engineer with a demonstrated track record of success, I bring a wealth of expertise and " +
-        "leadership abilities to any data engineering team. With experience in both leading and contributing to effective data " +
-        "engineering projects, I am comfortable driving excellence on both sides of the team. Throughout my career, " +
-        "I have honed my skills in data integration/ETL, data warehouse design, implementation, and maintenance. My technical " +
-        "skills include proficiency in Oracle, Postgres, Netezza, Greenplum, Python, and SAP Data Services. In addition, " +
-        "I am a certified Snowflake snowpro core developer. As I look to continue strengthening my career, I am excited to " +
-        "bring my passion for excellence to XYZ company and to help drive success through the effective management and " +
-        "utilization of data."
+        "Experienced Senior Data Engineer skilled in designing and executing solutions for complex business problems. " +
+        "Over 12 years of expertise in data integration & data warehouse implementation, and maintenance. " +
+        "Proficient in ETL, Oracle, Postgres, Python, SAP Data Services, and certified as a Snowflake " +
+        "snowpro core developer. As a data enthusiast, I am passionate about leveraging the power of data to drive informed " +
+        "decision-making and deliver meaningful business insights. Whether it's designing and implementing data pipelines, " +
+        "optimizing data structures., I find great satisfaction in working with data to drive positive change."
 }
 
 export default personalDetails;
