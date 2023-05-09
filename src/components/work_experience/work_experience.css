@@ -1,0 +1,113 @@
+.work-experience {
+    grid-area: work_experience;
+    display: grid;
+    width: auto;
+    height: auto;
+    margin-top: 1%;
+    grid-template-areas: "section_title"
+                         "experience_0"
+                         "experience_1"
+                         "experience_2";
+}
+
+.section-title {
+    grid-area: section_title;
+    letter-spacing: 0.25ch;
+    font-size: var(--font-size-m);
+    color: var(--section-title-font-color);
+    font-weight: bold;
+    padding-bottom: 0.25%;
+    border-bottom: calc(0.1 * var(--font-size-s)) solid var(--section-title-font-color);
+    margin-bottom: 1%;
+}
+
+.experience-0 {
+    grid-area: experience_0;
+}
+
+.experience-1 {
+    grid-area: experience_1;
+}
+
+.experience-2 {
+    grid-area: experience_2;
+}
+
+.experience-0, .experience-1, .experience-2 {
+    display: grid;
+    width: auto;
+    height: auto;
+    grid-template-areas: "role_company"
+                         "client"
+                         "period_location"
+                         "responsibilities"
+                         "achievements";
+}
+
+.role-company {
+    display: grid;
+    grid-area: role_company;
+    grid-template-columns: auto auto 5fr;
+    grid-template-areas: "company role extras";
+    height: 1%;
+    padding: 0.25%;
+    padding-left: 0;
+    font-size: var(--font-size-s);
+    letter-spacing: 0.1ch;
+}
+
+.company {
+    grid-area: company;
+    width: fit-content;
+    font-weight: bolder;
+}
+
+.role {
+    grid-area: role;
+    width: fit-content;
+}
+
+.client {
+    margin: 0;
+    font-size: var(--font-size-xs);
+    letter-spacing: 0.1ch;
+    font-weight: 500;
+    color: #333333;
+}
+
+.period-location {
+    grid-area: period_location;
+    display: grid;
+    letter-spacing: 0.1ch;
+    grid-template-columns: auto 5fr auto;
+    grid-template-areas: "period extras_1 location";
+    font-weight: lighter;
+    color: #999999;
+    padding: 0.25%;
+    padding-left: 0;
+}
+
+.period {
+    grid-area: period;
+    width: fit-content;
+}
+
+.location {
+    grid-area: location;
+    width: fit-content;
+    justify-items: start;
+}
+
+.responsibilities {
+    grid-area: responsibilities;
+    padding: 1%;
+    padding-left: 3%;
+    letter-spacing: 0.1ch;
+    font-size: var(--font-size-xs);
+    text-justify:inter-word ;
+    width: 90%;
+}
+
+.responsibility {
+    padding: 0.25%
+}

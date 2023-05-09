@@ -5,11 +5,11 @@ const personalDetails = {
     contact: "(+91) 940 074 7177",
     linkedIn: "https://www.linkedin.com/in/rinesh-ramakrishnan",
     credly: "https://www.credly.com/users/rinesh-ramakrishnan",
-    github: "https://www.https://github.com/rinesh-ramakrishnan",
+    github: "https://www.github.com/rinesh-ramakrishnan",
     location: "Kerala, India",
-    title: "Senior Data Engineer",
+    title: "Lead ETL Developer",
     description: 
-        "Experienced Senior Data Engineer skilled in designing and executing solutions for complex business problems. " +
+        "Experienced ETL developer skilled in designing and executing solutions for complex business problems. " +
         "Over 12 years of expertise in data integration & data warehouse implementation, and maintenance. " +
         "Proficient in ETL, Oracle, Postgres, Python, SAP Data Services, and certified as a Snowflake " +
         "snowpro core developer. As a data enthusiast, I am passionate about leveraging the power of data to drive informed " +

@@ -90,6 +90,7 @@
 }
 
 .about-me {
+    grid-area: introduction;
     padding: calc(0.0125 * var(--width-chosen)) calc(0.0275 * var(--width-chosen));
     font-size: var(--font-size-xs);
     letter-spacing: 0.25ch;
