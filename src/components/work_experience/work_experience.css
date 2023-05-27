@@ -100,7 +100,7 @@
 
 .responsibilities {
     grid-area: responsibilities;
-    padding: 1%;
+    padding: 1.5%;
     padding-left: 3%;
     letter-spacing: 0.1ch;
     font-size: var(--font-size-xs);
@@ -109,5 +109,5 @@
 }
 
 .responsibility {
-    padding: 0.25%
+    padding: 0.3%
 }

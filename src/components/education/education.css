@@ -1,0 +1,16 @@
+.section-title {
+    grid-area: section_title;
+    letter-spacing: 0.25ch;
+    font-size: var(--font-size-m);
+    color: var(--section-title-font-color);
+    font-weight: bold;
+    padding-bottom: 0.25%;
+    border-bottom: calc(0.1 * var(--font-size-s)) solid var(--section-title-font-color);
+    margin-bottom: 1.5%;
+}
+
+.education-details {
+    font-size: var(--font-size-xs);
+    letter-spacing: 0.1ch;
+    padding-bottom: 4%;
+}

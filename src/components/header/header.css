@@ -2,6 +2,7 @@
     grid-area: header;
     /*background-color: lightgrey;*/
     height: calc(0.20 * var(--height-chosen));
+    margin-bottom: 1%;
     grid-template-areas: "name"
                          "title"
                          "personal_details"

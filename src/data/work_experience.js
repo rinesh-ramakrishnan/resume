@@ -1,6 +1,6 @@
 const work_experience = [
     {
-        role: "Lead ETL Developer",
+        role: "Senior",
         startDate:'October 2019',
         endDate: 'Present',
         company: 'EY Global Delivery Services',
@@ -8,12 +8,20 @@ const work_experience = [
         client: 'Insurance Australia Group, Australia',
         tools: ['Greenplum', 'PostgreSQL', 'SQL/PLpgSQL', 'Python', 'Git', 'Jira', 'Confluence'],
         responsibilities: [
-            "Designed, developed, and supported 10+ data pipelines for seamless data integration, scalability, and maintenance.",
+            "Developed and supported 10+ data pipelines for seamless data integration, scalability, and maintenance.",
             "Designed and implemented a solution utilizing complex SQL regular expressions to extract layup periods from unstructured text data, delivering essential insights for the pricing team in rate calculation.",
-            "Led a team of four and worked in collaboration with business analysts to comprehensively understand and document the project requirements.",
+            "Led a team of four and worked in collaboration with business stakeholders to comprehensively understand and translate business needs to actionable project requirements.",
             "Revamped column mapping system using JSON data type in Greenplum database to reduce query complexity and improve scalability, resulting in streamlined data extraction and analysis processes.",
-            "As Lead Developer for an Agile project, I engage in high-level planning, sprint planning, and collaborate regularly with stakeholders to ensure alignment with requirements.",
-            "Successfully executed sprint planning and maintained regular collaboration with cross-functional teams in an Agile environment to ensure timely and efficient project delivery."
+            "Successfully executed sprint planning and maintained regular collaboration with cross-functional teams in an Agile environment to ensure timely and efficient project delivery.",
+            "Executed release management activities using Git and Jenkins, ensuring a smooth deployment process.",
+            "Provided critical support in SIT/UAT defect fixing and testing as well as seamless production releases.",
+            "Created an automated ETL process using Python to extract data from Jira boards and generate burnup charts for sprints, " +
+            "resulting in a 90% reduction in manual effort. The solution was presented to stakeholders, which was well-received and " +
+            "successfully implemented across 10+ projects.",
+            "Designed and implemented a robust Python-based tool for validating coding standards, offering accessibility via CLI, " +
+            "web browser, or API. This utility has been instrumental in enhancing the accuracy and consistency of coding practices " +
+            "and has effectively contributed to the maintenance and enhancement of existing codebases",
+            "Automated bulk loading of large data sets used for data reconciliation, resulting in a 95% reduction in manual effort and improved accuracy which significantly reduced effort required for each release."
         ],
         projects: [
             {
@@ -37,14 +45,26 @@ const work_experience = [
         ]
     },
     {
-        role: "Senior ETL Developer",
+        role: "Technology Analyst",
         startDate:'July 2015',
         endDate: 'October 2019',
         company: 'Infosys Limited',
         location: "Duesseldorf, Germany",
         client: 'Uniper, Germany',
         tools: ['Oracle', 'SQL/PLSQL', 'SAP BODS 4.2', 'SVN', 'Jira', 'Confluence'],
-        responsibilities: [],
+        responsibilities: [
+            "Implemented and enhanced 6 data pipeline architecture using SAP data Services to ensure efficient and accurate data processing, while providing support for both internal business users and regulatory compliance.",
+            "Built data pipelines using data extracted from ENDUR outbound interfaces for Power, Gas & Oil, Solar, and Coal products, leveraging extensive experience in the domain.",
+            "Designed and developed virtual storage process for archiving data older than 1 year using Oracle PLSQL programming. " +
+            "This helped to free up storage space in the primary server, resulting in improved performance of the data pipelines.",
+            "Collaborated with stakeholders to gather requirements and gain domain knowledge, providing architectural design solutions to meet client needs.",
+            "Analyzed various reporting requirements and collaborated with the team to successfully complete daily reporting.",
+            "Implemented changes identified through root cause analysis, incident handling, and operational excellence initiatives to improve system performance and reliability.",
+            "Improved system performance by 30% through designing and implementing a generic delta detection logic using Oracle. The logic was successfully incorporated into data " +
+            "pipelines used for regulatory compliance reporting, such as REMIT and EMIR.",
+            "Designed and developed a resilience check component using SAP Data Services, ensuring the accuracy and integrity of data used for regulatory compliance reporting.",
+            "Improved the performance of the EOD Sales data processing by 90%, leveraging the pushdown capabilities of SAP Data Services. The processing time was reduced from 2 hours to 10 minutes."
+        ],
         projects: [
             {
                 name: "FX-2step conversion for GTM",
@@ -112,14 +132,20 @@ const work_experience = [
         ]
     },
     {
-        role: "Junior ETL Developer",
+        role: "Senior Systems Engineer",
         startDate:'December 2011',
         endDate: 'July 2015',
         company: 'Infosys Limited',
         location: "Trivandrum, India",
         client: 'Cellular South, USA',
         tools: ['Netezza', 'Oracle', 'SQL/PLSQL/PLpgSQL', 'SAP BODS 4.0'],
-        responsibilities: [],
+        responsibilities: [
+            "Created an ETL pipeline using SAP Data Services and Netezza to facilitate the migration of the Data Warehouse from Oracle to the Netezza platform.",
+            "Automated the scheduling process by implementing job dependency and event based triggering.",
+            "Automated the data migration process(Oracle to Netezza) using Unix shell scripting and Netezza procedures.",
+            "Developed custom email notifications using SAP Data Services to keep stakeholders informed about the status of jobs in the data pipeline.",
+            "Developed a user interface for dynamically generating SAP Data Services dataflow components using Python. This saved a lot of effort required in performing redundant activities."
+        ],
         projects: [
             {
                 name: "Oracle to Netezza BI Migration Project",

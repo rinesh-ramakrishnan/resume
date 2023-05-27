@@ -1,0 +1,13 @@
+.cert-container {
+    grid-area: certifications;
+    padding: 1%;
+    padding-left: 3%;
+    letter-spacing: 0.1ch;
+    font-size: var(--font-size-xs);
+    text-justify:inter-word ;
+    width: 90%;
+}
+
+.cert {
+    padding: 0.2%
+}

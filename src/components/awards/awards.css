@@ -1,0 +1,14 @@
+.award-container {
+    grid-area: awards;
+    padding: 1%;
+    padding-left: 3%;
+    letter-spacing: 0.1ch;
+    font-size: var(--font-size-xs);
+    text-justify:inter-word ;
+    width: 90%;
+    padding-bottom: 2%;
+}
+
+.award {
+    padding: 0.2%
+}

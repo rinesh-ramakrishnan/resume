@@ -1,8 +1,9 @@
 .resume-container {
   display: grid;
   grid-template-areas: "header"
-                       "work_experience"
                        "skills"
+                       "work_experience"
                        "certifications"
+                       "awards"
                        "education";
 }

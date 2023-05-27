@@ -79,7 +79,6 @@ export default class WorkExperience extends React.Component {
         let experiences = [];
         let i = 0;
         for(let experience of work_experience) {
-            console.log(experience);
             experiences.push(
                 <Experience data={experience} index={i} key={i}/>
             );
